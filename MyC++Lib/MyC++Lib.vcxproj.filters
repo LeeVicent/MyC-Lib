@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\algorithm">
+      <UniqueIdentifier>{35b20857-26b0-4404-86c7-1d52656c01b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\algorithm\sort_algorithm">
+      <UniqueIdentifier>{38480215-04c4-4c75-aac3-9cef78b0e7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\micro_function">
+      <UniqueIdentifier>{8a8ea8af-fdea-4bfc-abac-705be6d6c875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\over_write">
+      <UniqueIdentifier>{fde75d6d-04e6-4e16-9943-758e187ae50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\over_write\stdlib">
+      <UniqueIdentifier>{eaea5fb2-64d1-4429-8502-35083b4e2db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\over_write\string">
+      <UniqueIdentifier>{aed6859d-f6cd-4c41-b803-b3fcba844fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\python">
+      <UniqueIdentifier>{67a7f312-79c0-4a7b-9128-63a800a50769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STL">
+      <UniqueIdentifier>{125f9437-bc3b-44dc-bbf0-5abad6c0aeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\STL\vector_">
+      <UniqueIdentifier>{4f3165ec-77c1-45f6-b1ae-5dffa1682851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\universal_function">
+      <UniqueIdentifier>{ec1a0a2f-986d-4e6b-8ce5-8d5582be0426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="algorithm\sort_algorithm\quicksort.cpp">
+      <Filter>Header Files\algorithm\sort_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="over_write\stdlib\atof.cpp">
+      <Filter>Header Files\over_write\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="over_write\string\strcpy.cpp">
+      <Filter>Header Files\over_write\string</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="micro_function\identifying_code.h">
+      <Filter>Header Files\micro_function</Filter>
+    </ClInclude>
+    <ClInclude Include="over_write\stdlib\rand.h">
+      <Filter>Header Files\over_write\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="python\range.h">
+      <Filter>Header Files\python</Filter>
+    </ClInclude>
+    <ClInclude Include="STL\vector_\remove_duplication.h">
+      <Filter>Header Files\STL\vector_</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="universal_function\swap.h">
+      <Filter>Header Files\universal_function</Filter>
+    </ClInclude>
+    <ClInclude Include="universal_function\error.h">
+      <Filter>Header Files\universal_function</Filter>
+    </ClInclude>
+    <ClInclude Include="universal_function\clock.h">
+      <Filter>Header Files\universal_function</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
