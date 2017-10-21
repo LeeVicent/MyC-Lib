@@ -119,11 +119,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithm\sort_algorithm\quicksort.cpp" />
+    <ClCompile Include="array\length_limit.h" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="over_write\stdlib\atof.cpp" />
     <ClCompile Include="over_write\string\strcpy.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="array\automatic_deduction_boundary.h" />
     <ClInclude Include="micro_function\identifying_code.h" />
     <ClInclude Include="over_write\stdlib\rand.h" />
     <ClInclude Include="python\range.h" />

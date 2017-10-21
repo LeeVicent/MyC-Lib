@@ -9,7 +9,20 @@
 
 #define C(x_) std::cout << x_ << "\n"
 #define CC(x) #x
-#define X(x) x##CC(__LINE__)
+#define X(x) x##CC(__LINE__)4
+
+
+template <class T>
+void fun  (T x)
+{
+	C(x);
+}
+//È«ÌØ»¯  
+template<>
+void fun<int >(int a)
+{
+
+}
 
 
 int main(int argc, char **argv)
@@ -17,6 +30,8 @@ int main(int argc, char **argv)
 	using std::vector;
 	using std::string;
 	using std::cout;
+
+
 
 	return system("pause");
 }

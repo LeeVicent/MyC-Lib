@@ -43,6 +43,9 @@
     <Filter Include="Header Files\universal_function">
       <UniqueIdentifier>{ec1a0a2f-986d-4e6b-8ce5-8d5582be0426}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\array">
+      <UniqueIdentifier>{66c46156-3cc9-43c6-958f-4bbdb7f6a4fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm\sort_algorithm\quicksort.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="array\length_limit.h">
+      <Filter>Header Files\array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="universal_function\clock.h">
       <Filter>Header Files\universal_function</Filter>
+    </ClInclude>
+    <ClInclude Include="array\automatic_deduction_boundary.h">
+      <Filter>Header Files\array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
