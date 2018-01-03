@@ -7,6 +7,8 @@
 #include <time.h>
 #include "universal_function\clock.h"
 
+
+
 #define C(x_) std::cout << x_ << "\n"
 #define CC(x) #x
 #define X(x) x##CC(__LINE__)4

@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+/MyC++Lib.VC.VC.opendb
